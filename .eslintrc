@@ -13,6 +13,9 @@
     "react/no-array-index-key": [0],
     "arrow-body-style": [0],
     "prefer-arrow-callback": [0],
+
+    // make the vars as all if you want error on all unused variables
+    "no-unused-vars": [2, { "vars": "none", "args": "after-used" }],
     "no-console": "off"
   }
 }
