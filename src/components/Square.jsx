@@ -1,11 +1,14 @@
 import React from 'react';
 
 const Square = props => {
-  const { value } = props;
-  console.log(value);
+  const { value, children } = props;
+  //   console.log(value);
+  //   console.log(props);
   return (
     <>
-      <button type="button">{value}</button>
+      <button type="button" className="square">
+        {value}
+      </button>
     </>
   );
 };
